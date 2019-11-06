@@ -11,7 +11,9 @@ The default setting will choose one random image from /r/wallpaper and /r/wallpa
 
 
 ## Requirements:  
-Python 3  
+* Python 3  
+* python3-dbus
+* python3-xlib
 
 ## Usage:
 ## Common Call:
@@ -54,3 +56,6 @@ optional arguments:
                         Sets a random wallpaper from already downloaded images if no new images were found.
 
   </pre>
+  
+  # License
+  GPL v3
