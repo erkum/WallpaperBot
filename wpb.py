@@ -1,5 +1,3 @@
-#requirements python3-dbus python3-xlib
-
 from sys import platform
 import sys
 import fractions
@@ -128,26 +126,6 @@ def getImageUrlReddit(subreddit_list, dest, desired_res=None, aspect_ratio=None)
                 print('Post does not contain an image. Skipping...')
 
     return candidates
-
-    # for image in candidates:
-    #     print(image['data']['url'])
-    #     downloadImage(dest, (
-    #         image['data']['url'],
-    #         image['data']['title'] + '_' + image['data']['id'] + os.path.splitext(image['data']['url'])[1]
-    #
-    #     ))
-    # if len(candidates) == 0:
-    #     print("No Reddit images found")
-    #     return None
-    # else:
-    #     image = candidates[random.randrange(0, len(candidates))]
-    #
-    #     return (
-    #         image['data']['url'],
-    #         # Filename = Reddit Title + _ + Id + ext
-    #         image['data']['title'] + '_' + image['data']['id'] + os.path.splitext(image['data']['url'])[1]
-    #
-    #     )
 
 
 def getImageUrlBing(url):
