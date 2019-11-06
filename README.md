@@ -12,6 +12,8 @@ The default setting will choose one random image from /r/wallpaper and /r/wallpa
 
 ## Requirements:  
 * Python 3  
+  
+### for Linux:
 * python3-dbus
 * python3-xlib
 
