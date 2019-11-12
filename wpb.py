@@ -335,6 +335,8 @@ def getArgs():
 def __main__():
     args = getArgs()
 
+    args.destination = os.path.normpath(args.destination) + '/'
+
     if not os.path.exists(args.destination):
         os.makedirs(args.destination)
 
